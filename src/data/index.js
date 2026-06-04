@@ -42,10 +42,10 @@ export const projects = [
     duration: "Client project, 2026",
     tools: ["Figma", "UX Research", "Prototyping"],
     screenshots: [
-      { src: "/images/lms-instructor-course.png", alt: "Instructor course page with add new course modal", caption: "Instructor course page" },
-      { src: "/images/lms-certification.png", alt: "Student certification achievement page", caption: "Student certification page" },
-      { src: "/images/lms-course-video.png", alt: "Student course video materials page", caption: "Student course video page" },
-      { src: "/images/lms-student-home.png", alt: "Student home page with course cards", caption: "Student home page" },
+      { src: process.env.PUBLIC_URL + "/images/lms-instructor-course.png", alt: "Instructor course page with add new course modal", caption: "Instructor course page" },
+      { src: process.env.PUBLIC_URL + "/images/lms-certification.png", alt: "Student certification achievement page", caption: "Student certification page" },
+      { src: process.env.PUBLIC_URL + "/images/lms-course-video.png", alt: "Student course video materials page", caption: "Student course video page" },
+      { src: process.env.PUBLIC_URL + "/images/lms-student-home.png", alt: "Student home page with course cards", caption: "Student home page" },
     ],
     challenge: "The product needed to support multiple learning workflows without feeling heavy or confusing. The key challenge was organizing login, dashboard, course management, and user journeys into a clear structure that could move smoothly into development.",
     process: [
@@ -76,9 +76,9 @@ export const projects = [
     duration: "2026",
     tools: ["Figma", "Figma Make", "Auto Layout"],
     screenshots: [
-      { src: "/images/flowflux-before-customer-profile.png", alt: "Before UI customer profile form", caption: "Before - customer profile form" },
-      { src: "/images/flowflux-after-supplier-form.png", alt: "Redesigned CRM supplier form", caption: "After - supplier form redesign" },
-      { src: "/images/flowflux-dashboard.png", alt: "FlowFlux CRM dashboard redesign", caption: "Dashboard redesign" },
+      { src: process.env.PUBLIC_URL + "/images/flowflux-before-customer-profile.png", alt: "Before UI customer profile form", caption: "Before - customer profile form" },
+      { src: process.env.PUBLIC_URL + "/images/flowflux-after-supplier-form.png", alt: "Redesigned CRM supplier form", caption: "After - supplier form redesign" },
+      { src: process.env.PUBLIC_URL + "/images/flowflux-dashboard.png", alt: "FlowFlux CRM dashboard redesign", caption: "Dashboard redesign" },
     ],
     challenge: "The CRM needed a cleaner, more cohesive interface across many screens and journeys. The redesign had to improve usability while keeping the system scalable for future modules.",
     process: [
