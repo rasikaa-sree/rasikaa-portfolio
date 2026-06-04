@@ -1,0 +1,33 @@
+.footer-bg {
+  background: var(--black); padding: 2.5rem 5%;
+  display: flex; justify-content: space-between;
+  align-items: flex-start; flex-wrap: wrap; gap: 2rem;
+}
+.footer-logo {
+  font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 1.2rem;
+  color: var(--white); letter-spacing: -0.5px; text-decoration: none;
+  display: block; margin-bottom: 0.7rem;
+}
+.footer-logo span { color: var(--orange); }
+.footer-brand p { font-size: 0.82rem; color: var(--white); line-height: 1.55; font-weight: 300; max-width: 220px; margin-bottom: 1rem; }
+.footer-socials { display: flex; gap: 1rem; }
+.footer-socials a { font-size: 0.78rem; color: var(--white); text-decoration: none; transition: color 0.2s; font-weight: 500; }
+.footer-socials a:hover { color: var(--orange); }
+
+.footer-nav h4 {
+  font-family: 'Poppins', sans-serif; font-size: 0.82rem; font-weight: 700;
+  color: var(--white); margin-bottom: 0.8rem;
+}
+.footer-nav ul { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+.footer-nav a { font-size: 0.82rem; color: var(--white); text-decoration: none; transition: color 0.2s; font-weight: 300; }
+.footer-nav a:hover { color: var(--orange); }
+
+.footer-bottom {
+  background: var(--black); border-top: 1px solid rgba(255,255,255,0.08);
+  padding: 1.2rem 5%; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.8rem;
+}
+.footer-bottom p { font-size: 0.75rem; color: var(--white); }
+.footer-bottom a { color: var(--white); text-decoration: none; }
+.footer-bottom a:hover { color: var(--orange); }
+
+@media (max-width: 768px) { .footer-bg { flex-direction: column; } }

@@ -1,0 +1,55 @@
+.project-card {
+  background: var(--white); border-radius: 8px; overflow: hidden;
+  border: 1.5px solid var(--border);
+  transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255,100,45,0.45);
+  box-shadow: 0 16px 50px rgba(255,100,45,0.12);
+}
+.project-thumb {
+  height: 170px; position: relative;
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.project-thumb-inner {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Poppins', sans-serif; font-size: 2rem; font-weight: 800; letter-spacing: 0;
+}
+.thumb-lms {
+  background: linear-gradient(135deg,#FFF8F2,#FFD3BD);
+  color: rgba(234,78,22,0.5);
+}
+.thumb-flowflux {
+  background: linear-gradient(135deg,#F5F8FF,#DCE7FF);
+  color: rgba(40,80,200,0.5);
+}
+.thumb-flowflux-site {
+  background: linear-gradient(135deg,#FAF5FF,#E9D5FF);
+  color: rgba(124,58,237,0.5);
+}
+.thumb-hotel {
+  background: linear-gradient(135deg,#FFF7ED,#FED7AA);
+  color: rgba(180,83,9,0.5);
+}
+
+.project-tag-bar { position: absolute; top: 0.8rem; left: 0.8rem; display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.ptag {
+  font-size: 0.67rem; font-weight: 500; padding: 0.2rem 0.6rem;
+  border-radius: 100px; background: rgba(255,255,255,0.85);
+  color: var(--text); border: 1px solid rgba(0,0,0,0.06);
+}
+.project-body { padding: 1.2rem; }
+.project-body h3 { font-family: 'Poppins', sans-serif; font-size: 0.98rem; font-weight: 800; margin-bottom: 0.4rem; color: var(--black); }
+.project-body p { font-size: 0.81rem; color: var(--text2); line-height: 1.55; font-weight: 300; margin-bottom: 1rem; }
+.project-footer { display: flex; justify-content: space-between; align-items: center; }
+.project-year { font-size: 0.72rem; color: var(--muted); }
+.project-arrow {
+  width: 30px; height: 30px; border-radius: 50%;
+  background: var(--orange-light); border: 1px solid var(--orange-mid);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--orange); font-size: 0.85rem; transition: all 0.2s;
+}
+.project-card:hover .project-arrow { background: var(--orange); color: var(--white); }
