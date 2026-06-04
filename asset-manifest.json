@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rasikaa-portfolio/static/css/main.a247b2d8.css",
+    "main.js": "/rasikaa-portfolio/static/js/main.79ddfa18.js",
+    "index.html": "/rasikaa-portfolio/index.html",
+    "main.a247b2d8.css.map": "/rasikaa-portfolio/static/css/main.a247b2d8.css.map",
+    "main.79ddfa18.js.map": "/rasikaa-portfolio/static/js/main.79ddfa18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a247b2d8.css",
+    "static/js/main.79ddfa18.js"
+  ]
+}
