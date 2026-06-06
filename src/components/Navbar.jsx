@@ -34,7 +34,6 @@ export default function Navbar() {
         <li>{navLink("#about", "About")}</li>
         <li>{navLink("#services", "Services")}</li>
         <li>{navLink("#work", "Work")}</li>
-        <li>{navLink("#blog", "Blog")}</li>
         <li>{navLink("#contact", "Contact")}</li>
       </ul>
 
