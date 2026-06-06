@@ -13,8 +13,8 @@ export const experiences = [
     desc: "Assisting in end-to-end interface design, creating wireframes and high-fidelity mockups, and collaborating with developers to implement modern, user-friendly solutions.",
   },
   {
-    company: "Your University / College",
-    role: "Design Student",
+    company: "Sona College of Technology, Salem",
+    role: "B.E. in Computer Science and Design Engineering",
     period: "2020 — 2024",
     desc: "Studied design principles, completed multiple academic case studies, and honed skills in Figma, User Research, and Interface Architecture.",
   }
