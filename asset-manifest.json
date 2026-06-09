@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rasikaa-portfolio/static/css/main.a247b2d8.css",
-    "main.js": "/rasikaa-portfolio/static/js/main.990d4e84.js",
+    "main.js": "/rasikaa-portfolio/static/js/main.0a4588d3.js",
     "index.html": "/rasikaa-portfolio/index.html",
     "main.a247b2d8.css.map": "/rasikaa-portfolio/static/css/main.a247b2d8.css.map",
-    "main.990d4e84.js.map": "/rasikaa-portfolio/static/js/main.990d4e84.js.map"
+    "main.0a4588d3.js.map": "/rasikaa-portfolio/static/js/main.0a4588d3.js.map"
   },
   "entrypoints": [
     "static/css/main.a247b2d8.css",
-    "static/js/main.990d4e84.js"
+    "static/js/main.0a4588d3.js"
   ]
 }
